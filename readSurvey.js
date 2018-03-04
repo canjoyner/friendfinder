@@ -15,7 +15,7 @@ $("#submitForm").on("click", function(){
 
 				var currentURl = window.location.origin;
 
-	    $.post(currentURL + "/api/tables", newUser,
+	    $.post(currentURL + "/api", newUser,
 	    function(data){
 
 	    	// If a table is available... tell user they are booked.
